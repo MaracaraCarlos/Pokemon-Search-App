@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/Pokeball_icon-icons.com_67533.png">
+  <title>Pokémon Search App</title>
+</head>
+  <body>
+    <h1>Pokémon Search App</h1>
+    <p id="busqueda"><em>by Carlos Maracara</em></p>
+    <div id="container">
+      <p>Search for Pokémon Name or ID</p>
+      <div id="input-container">
+        <input type="text" id="search-input" required>
+        <button id="search-button">Search</button>
+      </div>
+      <div id="pokemon-container">
+        <div id="pokemon-info">
+          <h2 id="pokemon-name"></h2>
+          <h2 id="pokemon-id"></h2>
+        </div>
+        <div id="peso-altura">
+          <p id="weight"> </p>
+          <p id="height"> </p>
+        </div>
+        <div id="image-container">
+          <!-- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="pikachu"> -->
+        </div>
+        <div id="types">
+          <!-- <p class="electric tipo">ELECTRIC</p>
+          <p class="fighting tipo">FIGHTING</p> -->
+        </div>
+        <div id="stats">
+          <div id="propiedades" class="columnas">
+            <p class="indices">Base</p>
+            <p>HP:</p>
+            <p>Attack:</p>
+            <p>Defense:</p>
+            <p>Sp. Attack:</p>
+            <p>Sp. Defense:</p>
+            <p>Speed</p>
+          </div>
+          <div id="valores" class="columnas">
+            <p class="indices">Stats</p>
+            <p id="hp">-</p>
+            <p id="attack">-</p>
+            <p id="defense">-</p>
+            <p id="special-attack">-</p>
+            <p id="special-defense">-</p>
+            <p id="speed">-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
