@@ -6,6 +6,6 @@ This project was a requirement to obtain the [JavaScript Algorithm and Data Stru
 Esta es una aplicación de búsqueda de Pokémon. Puedes buscar Pokémon de primera generación por nombre o ID.
 Este proyecto fue un requisito para obtener la certificación de desarrollador de Algoritmos y Estructuras de Datos JavaScript otorgado por freeCodeCamp.
 
-![PokemonApp1](https://github.com/user-attachments/assets/255bee13-a30f-4627-9800-c20b239d3940).
+![PokemonApp1](https://github.com/user-attachments/assets/255bee13-a30f-4627-9800-c20b239d3940)
 
 
